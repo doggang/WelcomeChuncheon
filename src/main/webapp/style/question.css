@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*---------question-----------*/
+#art_title{
+    font-size: 28px;
+    font-weight: bold;
+}
+article{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    margin: -20px 0 50px;
+}
+#article_wrap{
+    margin-top: 20px;
+    width: calc(100% - 0px);
+    padding: 5px 0px 5px 0px;
+    border-top: 1px solid black;
+    list-style-type: none;
+}
+.article_one{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+article ul li a{
+	    border-bottom: 1px solid rgb(177, 177, 177);
+}
+.article_one:hover{
+    color: #00306be8;
+}
+#article_one_last{
+    border-bottom: none;
+}
+#left_title{
+	display:flex;
+	padding-left: 15px;
+}
+.bbs_id{
+	padding:0 10px;
+}
+.right_one{
+    display: flex;
+}
+.right_one_content{
+    padding: 0 30px;                
+}
+#write{
+    float: right;
+    margin-top: 20px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #00306BE8;
+    border-radius: 3px;
+}
+#write:hover{
+        background-color: #00306BE8;
+        color: white;
+        transition-duration: 0.2s;
+}
+/*--------------oage-------------*/
+#page_wrap{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.page_content{
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    article{
+        width: 95%;
+        left: 50%;
+        margin-left: -47.5%;
+    }
+    .page_content a{
+        font-size: 18px;
+    }
+}
+
+
+@media all and (max-width:767px) {
+    #art_title{
+        font-size: 18px;
+    }
+    .article_one{
+        font-size: 11px;
+    }
+    .left_title{
+        width: 55%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .right_one_content{
+        padding: 0 5px;
+    }
+    #write{
+        width: 50px;
+        height: 25px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,21 @@
+/*---------footer--------*/
+footer{
+    background-color: #f7f7f7;
+    height: 250px;
+    width: 100%;
+    color: black;
+}
+#footer_content{
+    text-align: center;
+    padding: 50px 0;
+}
+#footer_title{
+    color: #111111;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+#footer_in{
+    margin-top: 20px;
+    font-size: 15px;
+}

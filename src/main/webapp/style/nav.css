@@ -1,0 +1,53 @@
+/*----------nav------------*/
+#plus_wrap{
+    position: relative;
+    width: 84%;
+    height: 40px;
+    left: 8%;
+    margin: 100px 0 40px;
+    background-color: #00306be8;
+}
+#plus_content{
+    float: right;
+    width: auto;
+    height: 100%;
+    line-height: 40px;
+    margin-right: 10px;
+    color: white;
+}
+#plus{
+    float: right;
+    width: auto;
+    height: 100%;
+    line-height: 35px;
+    margin-right: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+/*--------------반응형-------------*/
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+    #plus_wrap{
+        width: 95%;
+        left: 50%;
+        margin-left: -47.5%;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    #plus_wrap{
+        height: 30px;
+    }
+    #plus_content{
+        line-height: 31.5px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    #plus{
+        line-height: 25px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*---------question-----------*/
+article{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    margin: -20px 0 200px;
+}
+#article_wrap{
+    width: calc(100%);
+    height: 500px;
+    overflow: auto;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 5px;
+    text-align: center; 
+}
+#content_title{
+	background-color: #eeeeee; 
+	text-align: center;
+	height: 60px;
+	font-size : 22px;
+}
+.class_sub{
+	height:40px;
+	width:10%;
+}
+#content_con{
+	height:250px;
+}
+#del{
+	margin-top: 20px;
+    float: left;
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #00306BE8;
+    border-radius: 3px;
+}
+#del:hover{
+	background-color: #00306BE8;
+    color: white;
+    transition-duration: 0.2s;
+}
+#back{
+    margin-top: 20px;
+    float: right;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #00306BE8;
+    border-radius: 3px;
+}
+#back:hover{
+    background-color: #00306BE8;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    article{
+        width: 95%;
+        left: 50%;
+        margin-left: -47.5%;
+    }
+    #article_wrap{
+        margin: 0;
+    }
+}
+
+@media all and (max-width:767px) {
+    #article_wrap{
+        width: 100%;
+        font-size: 12px;
+    }
+    .class_sub{
+    	width:30%;
+    }
+    #back{
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+}

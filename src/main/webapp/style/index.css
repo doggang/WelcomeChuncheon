@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------article---------*/
+#main_img{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../img/forest.jpg");
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#main_sub{
+    margin-top: -300px;
+    font-size: 40px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+#main_main{
+    font-size: 150px;
+    padding-top: 30px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+article{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.art_wrap{
+    width: 30%;
+    height: 350px;
+}
+.art_wrap:hover .art_name{
+    position: relative;
+    bottom: 100px;
+    height: 100px;
+    line-height: 100px;
+    transition-duration: 0.5s;
+}
+.art_img_wrap{
+    width: 100%;
+    height: 270px;
+}
+.art_name{
+    position: relative;
+    bottom: 80px;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 80px;
+    line-height: 80px;
+    text-align: center;  
+    background-color: rgba(67, 67, 67, 0.591);
+    color: white;
+    font-size: 18px;
+}
+.art_img{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+    background-color: #f7f7f7;
+}
+#section_content{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section_content_first{
+
+}
+
+/*--------------반응형-------------*/
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+    article{
+        width: 95%;
+        left: 50%;
+        margin-left: -47.5%;
+    }
+    .art_wrap{
+        width: 32%;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    #main_img{
+        height: 800px;
+    }
+    #main_sub{
+        margin-top: -100px;
+        font-size: 30px;
+    }
+    #main_main{
+        font-size: 70px;
+    }
+}
