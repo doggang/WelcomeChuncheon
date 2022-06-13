@@ -99,23 +99,23 @@
             관광지 소개
         </div>
         <div id='first_art' class="article">
-            <a class="art_wrap" href="./detail7.jsp">
+            <a class="art_wrap" href="./detail/detail7.jsp">
                 <div class="art_img_wrap">
                     <img class='art_img' src="./img/place_img/rail.jpg" alt="이미지">
                 </div>
                 <div class="art_name">강촌 레일파크</div>
             </a>
 
-            <a class="art_wrap" href="./detail8.jsp">
+            <a class="art_wrap" href="./detail/detail8.jsp">
                 <div class="art_img_wrap">
                     <img class='art_img' src="./img/place_img/ski.jpg" alt="이미지">
                 </div>
                 <div class="art_name">강촌 엘리시안 스키장</div>
             </a>
             
-            <a class="art_wrap" href="./detail9.jsp">
+            <a class="art_wrap" href="./detail/detail9.jsp">
                 <div class="art_img_wrap">
-                    <img class='art_img' src="./img/place_img/zara.jpg" alt="이미지">
+                    <img class='art_img' src="./img/place_img/skywalk.jpg" alt="이미지">
                 </div>
                 <div class="art_name">자라섬</div>
             </a>
